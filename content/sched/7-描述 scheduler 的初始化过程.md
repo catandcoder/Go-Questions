@@ -4,7 +4,7 @@ title: "描述 scheduler 的初始化过程"
 slug: /init
 ---
 
-上一节我们说完了 GPM 结构体，这一讲，我们来研究 Go sheduler 结构体，以及整个调度器的初始化过程。
+上一节我们说完了 GPM 结构体，这一讲，我们来研究 Go scheduler 结构体，以及整个调度器的初始化过程。
 
 Go scheduler 在源码中的结构体为 `schedt`，保存调度器的状态信息、全局的可运行 G 队列等。源码如下：
 
